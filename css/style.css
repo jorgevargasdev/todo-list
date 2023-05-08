@@ -83,6 +83,11 @@ form button:hover {
     flex: 1;
 }
 
+.todo-input::placeholder {
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+
 .trash-btn, 
 .complete-btn {
     color: white;
@@ -140,6 +145,7 @@ select {
     color:var(--primary-color);
     width: 10rem;
     height: 3.2rem;
+    font-size: 1rem;
     cursor: pointer;
     padding: 1rem;
 }
